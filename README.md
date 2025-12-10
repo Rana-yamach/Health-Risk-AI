@@ -43,3 +43,44 @@ Cardiovascular disease is a leading cause of global mortality. This project aims
 │   └── feature_names.pkl  # List of features used during training
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
+```
+
+## ⚙️ **Installation & Setup**
+**1. Clone the Repository**
+```
+git clone [https://github.com/your-username/health-policy-simulator-turkey.git](https://github.com/your-username/health-policy-simulator-turkey.git)
+cd health-policy-simulator-turkey
+```
+
+## **2. Create a Virtual Environment**
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+## **3. Install Dependencies**
+```
+pip install -r requirements.txt
+```
+
+## **4. Run the Application**
+```
+streamlit run src/streamlit_app.py
+```
+## 📊 Model Details
+* **Algorithm:** Random Forest Regressor
+
+* **Training Data:** Unified global health dataset (1990-2024) spanning 193 countries.
+
+* **Key Features:**
+
+   * Dietary Composition (Sugar, Fat, Wheat, Rice)
+
+   * Demographics (Age, Gender)
+
+   * Engineered Features: Risk_Metabolic_Combo (Sugar × Fat), Ratio_Veg_to_Grain.
+
+---
+
+## 📝 License
+This project is for educational and policy simulation purposes.
